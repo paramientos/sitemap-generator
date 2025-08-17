@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sitemapxml-generator.soysaltan.com/sitemap.xml
+
+# Disallow crawling of assets and temporary files
+Disallow: /assets/
+Disallow: /*.tmp
+Disallow: /*.log
+
+# Allow crawling of main pages
+Allow: /index.php
+Allow: /
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

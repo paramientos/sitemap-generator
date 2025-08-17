@@ -1,0 +1,62 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Trae AI files
+.trae/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache directories
+.cache/
+
+# Backup files
+*.bak
+*.backup
+
+# Generated sitemaps (if any test files)
+test_sitemap.xml
+
+# PHP specific
+vendor/
+composer.lock
+
+# Node modules (if any frontend tools are added later)
+node_modules/
+
+# Build directories
+build/
+dist/
